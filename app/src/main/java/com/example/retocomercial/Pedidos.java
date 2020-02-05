@@ -57,6 +57,7 @@ public class Pedidos extends AppCompatActivity {
                 String empresa= c0.getString(0);
                 listaArraySpinner.add(empresa);
                 codPartner.add(c0.getInt(1));
+                //hola
             } while(c0.moveToNext());
         }
         ArrayAdapter<String> adapter2;
